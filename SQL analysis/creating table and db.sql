@@ -1,0 +1,13 @@
+create database retail_store;
+use retail_store;
+CREATE TABLE retail_sales (
+    YEAR INT,
+    MONTH INT,
+    SUPPLIER VARCHAR(100),
+    ITEM_TYPE VARCHAR(100),
+    ITEM_CODE VARCHAR(100),
+    ITEM_DESCRIPTION TEXT,
+    RETAIL_SALES FLOAT,
+    RETAIL_TRANSFERS FLOAT,
+    WAREHOUSE_SALES FLOAT
+);
